@@ -93,25 +93,21 @@ button {
     padding: 120px 0;
     text-align: center;
     background-image: url(../images/img-food.png);
+    background-color: rgba(0, 0, 0, 0.6); /* Полупрозрачный черный слой */
     border-radius: 32px;
+   
+    margin-bottom: 16px;
 
 }
+
+
 
 .image {
     width: 100%;
     height: auto;
 }
 
-.overlay {
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    height: 50%;
-    /* высота затемняющего слоя */
-    background-color: rgba(0, 0, 0, 0.5);
-    /* черный цвет с прозрачностью */
-}
+
 
 .hero-content {
     width: 869px;
@@ -140,6 +136,73 @@ button {
 
     }
 
+}
+
+.menu { 
+    background-color: #C4E5FC; 
+    padding: 40px; 
+    border-radius: 32px; 
+    margin-top: 16px; 
+    display: flex; 
+    justify-content: space-between; 
+    margin-bottom: 16px; 
+ 
+    .menu-text { 
+        width: 494px; 
+        padding-top: 148px; 
+        font-family: "Roboto", sans-serif; 
+ 
+ 
+        button.menu-btn1 { 
+            margin-bottom: 20px; 
+            padding: 4px 8px 4px 8px; 
+            border-radius: 12px; 
+            background: #EE6352; 
+            font-size: 14px; 
+            text-transform: uppercase; 
+ 
+        } 
+ 
+        button.menu-btn2 { 
+            border: 1px solid #262522; 
+            background-color: transparent; 
+            color: currentColor; 
+            text-transform: uppercase; 
+        } 
+ 
+        h3 { 
+            margin-bottom: 12px; 
+            font-size: 40px; 
+            text-transform: uppercase; 
+        } 
+ 
+        p { 
+            margin-bottom: 40px; 
+            font-weight: 300; 
+            line-height: 22px; 
+        } 
+    } 
+ 
+    .menu-items { 
+        width: 494px; 
+ 
+        div { 
+            display: flex; 
+            justify-content: space-between; 
+            align-items: center; 
+            margin-bottom: 16px; 
+            border-bottom: 1px solid #26252229; 
+            padding: 18px 0; 
+            img {} 
+ 
+            h4 { 
+                font-size: 18px; 
+                font-weight: 600; 
+                font-family: "Montserrat", sans-serif; 
+                text-transform: uppercase; 
+            } 
+        } 
+    } 
 }
 
 
